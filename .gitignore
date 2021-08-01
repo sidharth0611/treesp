@@ -3,4 +3,4 @@ Include/
 Lib/
 Scripts/
 dist/
-build/
+treesp.egg-info/
