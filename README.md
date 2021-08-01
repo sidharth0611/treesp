@@ -9,7 +9,7 @@ This module helps you to perform operations on trees. The functions this module 
 - Lowest common ancestor
 
 ## Installation
-``` pip install treesp```
+``` pip install treesp ```
 
 ## How to use it
 we need to import module
