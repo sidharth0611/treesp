@@ -2,9 +2,11 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.1'
-DESCRIPTION = 'trees'
-LONG_DESCRIPTION = 'A package to perform various operations on trees'
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+VERSION = '1.0.1'
+
 
 # Setting up
 setup(
@@ -12,9 +14,9 @@ setup(
     version=VERSION,
     author="Sidharth Parekh",
     author_email="sidharthparekh1@gmail.com",
-    description=DESCRIPTION,
+    description="trees",
+    long_description=long_description,
     long_description_content_type="text/markdown",
-    long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     install_requires=[],
     keywords=['python', 'preorder', 'postorder', 'inorder', 'trees'],

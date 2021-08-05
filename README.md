@@ -24,6 +24,9 @@ To run other functions
 ``` k = tp.inorder(j) ```
 Note:- the functions resturns a List
 
+## Github repository
+ ``` https://github.com/sidharth0611 ```
+
 ## License
 © 2021 Sidharth Parekh
 
