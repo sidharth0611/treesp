@@ -16,7 +16,7 @@ we need to import module
 ``` from treesp import treesp as tp ```
 
 To create a bst:-
-You need to define a class which hols tree data structure
+You need to define a class which holds tree data structure
 then you can simply use insert function to insert the nodes
 ``` tp.insert(j, 2) ```
 
